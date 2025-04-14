@@ -25,10 +25,10 @@ export default async function Home() {
         <table className="min-w-[600px] border border-neutral-400 w-full">
           <thead>
             <tr className="bg-neutral-700 text-white p-4 flex flex-row gap-4 border border-neutral-400">
-              <th className="pr-2 min-w-[80px]">Posição</th>
-              <th className="pr-2 min-w-[100px]">Rank Global</th>
-              <th className="pr-2 min-w-[200px]">Usuário</th>
-              <th className="min-w-[150px]">Distância Total</th>
+              <th className="pr-2 lg:min-w-[80px]">Posição</th>
+              <th className="pr-2 lg:min-w-[100px]">Rank Global</th>
+              <th className="pr-2 lg:min-w-[200px]">Usuário</th>
+              <th className="lg:min-w-[150px]">Distância Total</th>
             </tr>
           </thead>
           <tbody>
