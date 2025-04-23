@@ -26,7 +26,11 @@ export async function pegarDados(): Promise<Valor[]> {
             "Referrer-Policy": "strict-origin-when-cross-origin"
         },
         "body": null,
-        "method": "GET"
+        "method": "GET",
+        next: {
+            revalidate: 6000, 
+            tags: ["dados"]
+        }
     }).then(r => r.json())
 
     

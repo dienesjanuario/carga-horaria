@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { pegarDados, Valor } from "./data/dados";
 
+export const dynamic = 'force-dynamic'
+
 function Usuario({ valor, posicao }: { valor: Valor, posicao: number }) {
   const color = posicao % 2 == 0 ? "bg-green-800" : "bg-green-700"
   return (
